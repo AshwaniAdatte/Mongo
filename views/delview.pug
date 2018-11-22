@@ -1,0 +1,17 @@
+extends layout
+
+block content
+	body.grey
+	h3.center-align Previous Superheroes
+	each val in data
+		.row
+			.col-6
+				.card.purple
+					.card-content
+						
+						h5.center-align #{val.superhero}
+						p Real Name : #{val.alter_ego}
+						p Publisher : #{val.publisher}
+						p Superhero : #{val.superhero}
+						p First Appearance : #{val.first_app}
+						p Characters : #{val.characters}

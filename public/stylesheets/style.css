@@ -1,0 +1,29 @@
+body {
+	background-image: url("https://pickywallpapers.com/img/2018/1/avengers-infinity-war-4k-widescreen-computer-background-919-938-hd-wallpapers.jpg");
+  	padding: 50px;
+  	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  	background-repeat: no-repeat;
+  	background-size: cover; 
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1{
+ color: pink;
+}
+
+h2{
+ color: pink;
+}
+
+h3{
+ color: pink;
+}
+
+p {
+	font-family: "tahoma";
+	font-size: 16px;
+	color: cyan;
+}

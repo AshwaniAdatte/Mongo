@@ -1,0 +1,20 @@
+extends layout
+
+block content
+	body.grey
+	h3.center-align Superheroes
+	each val in data
+		.row
+			.col-6
+				.card.purple
+					.card-content
+						h5.center-align #{val.superhero}
+						.card-action
+							a(href = '/delete?id='+val.id) Delete
+							a(href = '/update?id='+val.id) Update
+							a(href = '/view?id='+val.id) View
+						p Real Name : #{val.alter_ego}
+						p Publisher : #{val.publisher}
+						p Superhero : #{val.superhero}
+						p First Appearance : #{val.first_app}
+						p Characters : #{val.characters}
